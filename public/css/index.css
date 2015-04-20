@@ -1,0 +1,146 @@
+body {
+  background: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  color: #2B3840;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Titillium Web', sans-serif;
+  color: #4A90E2;
+}
+
+header {
+  min-height: 50px;
+  padding: 5px 10px;
+  font-size: 18px;
+  line-height: 35px;
+  color: #fff;
+  background-color: #4A90E2;
+}
+
+header img {
+  max-height: 35px;
+  margin-right: 10px;
+}
+
+textarea {
+  margin: 10px 0;
+  font-size: 15px;
+  width: 80%;
+  float: left;
+  border-left: none;
+}
+
+form {
+  width: 100%;
+}
+
+select {
+  width: 100%;
+}
+
+.btn {
+  width: 100%;
+}
+
+.messageList {
+  width: 100%;
+}
+
+.btn-lg {
+  margin-top: 10px;
+  float: left;
+  height: 56px;
+  font-size: 15px;
+  border-radius: 0;
+  background-color: #ccc;
+  color: #2B3840;
+  border: solid 1px #2B3840;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.btn-lg:hover {
+  color: #000;
+}
+
+#sidebar, #content {
+  padding: 10px 20px;
+}
+
+#content h3 {
+  margin: 5px 0 20px 0;
+}
+
+#sidebar img{
+  width: 36px;
+  float: left;
+}
+
+.messageAuthor {
+  font-weight: bold;
+}
+
+.logoHeader {
+  min-height: 80px;
+  font-size: 18px;
+}
+
+.mic {
+  color: #D65B33;
+  font-weight: bold;
+  font-style: italic;
+  margin-right: 2px;
+}
+
+.messageList {
+  margin-top: 40px;
+}
+.message {
+  padding: 5px 0;
+}
+
+.messageForm {
+  bottom: 0px;
+}
+.team-color {
+  display: inline-block;
+  float: left;
+  height: 16px;
+  width: 16px;
+  margin-top: 4px;
+  margin-right: 10px;
+  background-color: #f1f1f1;
+  border: solid 1px #ccc;
+  border-radius: 50%;
+}
+
+.gameRow {
+  border: solid 1px #ccc;
+  padding: 10px;
+  color: #999;
+}
+
+.fieldRow{
+  color: #4A90E2;
+  margin-bottom: 20px;
+}
+
+.field-description {
+  font-size: 12px;
+}
+
+.dateRow {
+  margin: 0 0 60px 0;
+}
+
+.fivek{
+  display: none;
+}
+
+.nav {
+  margin-top: 10px;
+}

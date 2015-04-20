@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>micDrop</title>
+    <!-- Not present in the tutorial. Just for basic styling. -->
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.0/JSXTransformer.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/0.3.1/showdown.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link rel="icon" type="image/ico" sizes="16x16" href="images/favicon.ico">
+  </head>
+  <body>
+    <header><img src="images/logo.png"> FPC SOCCER SCHEDULE 2015</header>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#threefour" aria-controls="threefour" role="tab" data-toggle="tab">3's & 4's</a></li>
+            <li role="presentation"><a href="#fivek" aria-controls="fivek" role="tab" data-toggle="tab">5's & K</a></li>
+            <li role="presentation"><a href="#firstsecond" aria-controls="fivek" role="tab" data-toggle="tab">1st & 2nd</a></li>
+            <li role="presentation"><a href="#thirdfourth" aria-controls="fivek" role="tab" data-toggle="tab">3rd & 4th</a></li>
+            <li role="presentation"><a href="#fifthsixth" aria-controls="fivek" role="tab" data-toggle="tab">5th & 6th</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div id="content"></div>
+        </div>
+      </div>
+    </div>
+    <script type="text/jsx;harmony=true" src="scripts/games.js"></script>
+  </body>
+</html>
