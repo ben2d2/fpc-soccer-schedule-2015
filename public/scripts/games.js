@@ -1477,10 +1477,9 @@ var Games = React.createClass({
     var homeTeam = findById(teams,this.props.data.home);
     return (
       <div className="gameRow row">
-        <div className="col-sm-2">{times[this.props.data.start_at]}</div>
-        <div className="col-sm-4"><span className="team-color" style={{backgroundColor: awayTeam.color}}></span>{awayTeam.name}</div>
-        <div className="col-sm-2">@</div>
-        <div className="col-sm-4"><span className="team-color" style={{backgroundColor: homeTeam.color}}></span>{homeTeam.name}</div>
+        <div className="col-lg-2"><strong>{times[this.props.data.start_at]}</strong></div>
+        <div className="col-lg-5"><span className="team-color" style={{backgroundColor: awayTeam.color}}></span>{awayTeam.name}</div>
+        <div className="col-lg-5"><span className="team-color" style={{backgroundColor: homeTeam.color}}></span>{homeTeam.name}</div>
       </div>
     );
   }
@@ -1505,7 +1504,7 @@ var Fields = React.createClass({
   render: function() {
     return (
       <div className="fieldRow">
-        Field #{fields.indexOf(this.props.data.field, 0) + 1} {this.props.data.field}
+        Field #{fields.indexOf(this.props.data.field, 0) + 1} <span className="field-description">{this.props.data.field}</span>
         <GamesList data={this.props.data.games} />
       </div>
     );
