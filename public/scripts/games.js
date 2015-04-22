@@ -1477,7 +1477,7 @@ var Games = React.createClass({
     var homeTeam = findById(teams,this.props.data.home);
     return (
       <div className="gameRow row">
-        <div className="col-lg-2"><strong>{times[this.props.data.start_at]}</strong></div>
+        <div className="col-lg-2 time">{times[this.props.data.start_at]}</div>
         <div className="col-lg-5"><span className="team-color" style={{backgroundColor: awayTeam.color}}></span>{awayTeam.name}</div>
         <div className="col-lg-5"><span className="team-color" style={{backgroundColor: homeTeam.color}}></span>{homeTeam.name}</div>
       </div>
@@ -1530,7 +1530,7 @@ var Dates = React.createClass({
   render: function() {
     return (
       <div className="dateRow">
-        {this.props.data.date}
+        <strong>{this.props.data.date}</strong>
         <FieldsList data={this.props.data.fields} />
       </div>
     );
