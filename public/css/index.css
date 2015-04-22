@@ -26,86 +26,10 @@ header img {
   margin-right: 10px;
 }
 
-textarea {
-  margin: 10px 0;
-  font-size: 15px;
-  width: 80%;
-  float: left;
-  border-left: none;
-}
-
-form {
-  width: 100%;
-}
-
-select {
-  width: 100%;
-}
-
-.btn {
-  width: 100%;
-}
-
-.messageList {
-  width: 100%;
-}
-
-.btn-lg {
-  margin-top: 10px;
-  float: left;
-  height: 56px;
-  font-size: 15px;
-  border-radius: 0;
-  background-color: #ccc;
-  color: #2B3840;
-  border: solid 1px #2B3840;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-}
-
-.btn-lg:hover {
-  color: #000;
-}
-
-#sidebar, #content {
+#content {
   padding: 10px 20px;
 }
 
-#content h3 {
-  margin: 5px 0 20px 0;
-}
-
-#sidebar img{
-  width: 36px;
-  float: left;
-}
-
-.messageAuthor {
-  font-weight: bold;
-}
-
-.logoHeader {
-  min-height: 80px;
-  font-size: 18px;
-}
-
-.mic {
-  color: #D65B33;
-  font-weight: bold;
-  font-style: italic;
-  margin-right: 2px;
-}
-
-.messageList {
-  margin-top: 40px;
-}
-.message {
-  padding: 5px 0;
-}
-
-.messageForm {
-  bottom: 0px;
-}
 .team-color {
   display: inline-block;
   float: left;
@@ -114,14 +38,14 @@ select {
   margin-top: 10px;
   margin-right: 20px;
   background-color: #f1f1f1;
-  border: solid 1px #ccc;
+  border: solid 1px #ddd;
   border-radius: 50%;
 }
 
 .gameRow {
-  border: solid 1px #ccc;
+  border: solid 1px #ddd;
   padding: 10px;
-  color: #999;
+  color: #666;
 }
 
 .fieldRow{
@@ -163,8 +87,9 @@ select {
   header img {
     max-height: 60px;
   }
+
   .team-color {
-    height: 30px;
+    height: 40px;
     width: 60px;
     margin-top: 15px;
     margin-right: 15px;
