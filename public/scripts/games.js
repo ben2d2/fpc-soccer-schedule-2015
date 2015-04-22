@@ -1531,7 +1531,7 @@ var Dates = React.createClass({
   render: function() {
     return (
       <div className="dateRow">
-        <h4>{this.props.data.date}</h4>
+        {this.props.data.date}
         <FieldsList data={this.props.data.fields} />
       </div>
     );
