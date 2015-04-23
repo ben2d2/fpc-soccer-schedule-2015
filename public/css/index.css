@@ -67,12 +67,16 @@ header img {
 }
 
 .nav {
-  margin-top: 10px;
-  font-size: 36px;
+  margin-top: 20px;
+  font-size: 42px;
 }
 
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
   color: #0A4182;
+}
+
+.nav>li>a {
+  padding: 3px 6px;
 }
 
 .time {
@@ -80,6 +84,9 @@ header img {
 }
 
 @media screen and (max-width: 1000px) {
+  body {
+    font-size: 48px;
+  }
   header {
     padding: 10px;
     font-size: 48px;
@@ -89,10 +96,9 @@ header img {
   }
 
   .team-color {
-    height: 30px;
+    height: 60px;
     width: 60px;
-    margin-top: 15px;
-    margin-right: 15px;
-    border-radius: 0;
+    margin-right: 25px;
+    border-radius: 50%;
   }
 }
